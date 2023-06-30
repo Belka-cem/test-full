@@ -1,0 +1,9 @@
+- Pour assurer la qualité du code j'aurais pu utiliser un linter tel que esLint pour avoir une meilleur indentation et détecter des erreurs potentiels ce qui permettra d'ameliorer la la lisibilité. 
+
+
+- Pour mettre en place un processus CI CD il faut  d'abord mettre en place un pipeline qui sera éxécuté automatiquement à chaque fois que du code et poussé dessus. Ce pipeline sera composé de plusieurs étapes à définir selon les besoins.
+  Pour avoir un pipeline minimaliste fonctionnelle il faut au minimum définr 3 étapes : 
+	- Etape de build qui va s'occuper de créer et pousser l'image de l'application dans une registry.
+	- Etape de test qui va tester l'application avant le déploiement  via des tests automatiser.
+	- Etape de déploiement qui va récupérer l'image de l'application, la créer et la  déployer. 
+ 
